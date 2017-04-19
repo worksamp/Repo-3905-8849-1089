@@ -10,6 +10,7 @@ namespace MvcApplicationTest.Controllers
     public class ValuesController : ApiController
     {
         // GET api/values
+        //test
         public IEnumerable<string> Get()
         {
             return new string[] { "value1", "value2" };
